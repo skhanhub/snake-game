@@ -1,5 +1,16 @@
+import Snake from "./snake";
+import SnakeGameV4 from "./snakeGamV4";
 
-console.log("hi");
+const snakeGame = new SnakeGameV4(new Snake(3, 2));
+
+snakeGame.moveSnake({ xMove: 1, yMove: 0 });
+snakeGame.moveSnake({ xMove: 0, yMove: 1 });
+snakeGame.moveSnake({ xMove: 0, yMove: 1 });
+snakeGame.moveSnake({ xMove: 0, yMove: 1 });
+snakeGame.moveSnake({ xMove: 0, yMove: 1 });
+snakeGame.moveSnake({ xMove: 0, yMove: 1 });
+snakeGame.isGameOver();
+
 
 
 // arbitary board
