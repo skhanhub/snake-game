@@ -17,7 +17,7 @@ enum GameState {
     OVER
 }
 
-export default class SnakeGame implements ISnakeGame {
+export default class SnakeGameV1 implements ISnakeGame {
     board: string[][];
     numTurn: number;
     snakeSize: number;
